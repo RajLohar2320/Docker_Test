@@ -1,0 +1,23 @@
+Git credentials commands- (if git clone is not working)
+
+git config --global http.proxy http://exam@192.168.10.4:808
+git config --global credential.helper wincred
+git config --global user.name "RajLohar2320"
+git config --global user.email "loharraj166@gmail.com"
+git config --global user.password "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"
+
+
+Proxy unset commands-
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+git config --global --unset core.gitproxy
+
+
+Docker commands-
+
+sudo apt-get install docker.io
+sudo apt-get install docker.Buildx -----If getting error to build image
+sudo docker build -t file_name .
+sudo docker images ------to see docker images
+sudo docker run -d -p port_no:port_no docker_image_name(ie file_name)
